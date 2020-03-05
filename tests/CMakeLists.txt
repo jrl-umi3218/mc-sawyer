@@ -1,0 +1,10 @@
+macro(test_module NAME)
+  set(MODULE_NAME ${NAME})
+  set(SRC "${CMAKE_CURRENT_BINARY_DIR}/test_${NAME}_module.cpp")
+  configure_file(test_module.in.cpp "${SRC}")
+  add_executable(test_${NAME}_module ${SRC})
+  target_link_libraries(test_${NAME}_module PRIVATE mc_rtc::mc_rbdyn)
+  add_test(test_${NAME}_module test_${NAME}_module)
+endmacro()
+
+test_module(sawyer)

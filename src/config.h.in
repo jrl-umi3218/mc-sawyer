@@ -1,0 +1,3 @@
+#pragma once
+
+constexpr auto SAWYER_DESCRIPTION_PATH = "@SAWYER_DESCRIPTION_PATH@";
