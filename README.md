@@ -7,5 +7,5 @@ Dependencies
 ------------
 
 This package requires:
-- [mc_rtc](https://gite.lirmm.fr/multi-contact/mc_rtc)
-- [sawyer_description](https://github.com/hu-yue/sawyer_robot/tree/changes_for_mc)
+- [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
+- [sawyer_description](https://github.com/jrl-umi3218/sawyer_robot)
