@@ -54,6 +54,7 @@ extern "C"
   }
   ROBOT_MODULE_API mc_rbdyn::RobotModule * create(const std::string & n)
   {
+    ROBOT_MODULE_CHECK_VERSION("sawyer")
     if(n == "sawyer")
     {
       return new mc_robots::SawyerRobotModule(true);

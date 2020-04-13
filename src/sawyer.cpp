@@ -96,7 +96,7 @@ namespace mc_robots
 
       // Collisions arm-arm
       mc_rbdyn::Collision("right_l4", "right_arm_base_link", 0.05, 0.01, 0.),
-      mc_rbdyn::Collision("right_l4", "right_l0", 0.05, 0.01, 0.)
+      mc_rbdyn::Collision("right_l4", "right_l0", 0.05, 0.01, 0.),
       mc_rbdyn::Collision("right_l4", "head", 0.05, 0.01, 0.),
       mc_rbdyn::Collision("right_l5", "right_arm_base_link", 0.05, 0.01, 0.),
       mc_rbdyn::Collision("right_l5", "right_l0", 0.05, 0.01, 0.),
