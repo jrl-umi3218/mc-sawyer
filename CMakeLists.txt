@@ -14,7 +14,7 @@ else()
   set(SAWYER_DESCRIPTION_PATH "${sawyer_description_INSTALL_PREFIX}")
 endif()
 
-message("SAWYER_DESCRIPTION_PATH: ${SAWYER_DESCRIPTION_PATH}")
+message(STATUS "SAWYER_DESCRIPTION_PATH: ${SAWYER_DESCRIPTION_PATH}")
 configure_file(src/config.h.in "${CMAKE_CURRENT_BINARY_DIR}/include/config.h")
 
 macro(add_module NAME)
